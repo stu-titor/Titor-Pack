@@ -1,0 +1,45 @@
+{
+ "target": "cobblemon:eevee",
+ "drops": {
+    "amount": 9,
+    "entries": [
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:psychic_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:dark_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:fairy_tera_shard",
+        "quantityRange": "3-6"
+      },
+      {
+        "item": "mega_showdown:normal_tera_shard",
+        "quantityRange": "3-6"
+      }
+    ]
+  }
+
+}

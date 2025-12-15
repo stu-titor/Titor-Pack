@@ -1,0 +1,13 @@
+{
+ "target": "cobblemon:phione",
+ "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "quantityRange": "15-20"
+      }
+    ]
+  }
+
+}

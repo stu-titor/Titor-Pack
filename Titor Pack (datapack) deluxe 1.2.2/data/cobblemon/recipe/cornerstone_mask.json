@@ -1,0 +1,27 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "mega_showdown:rock_tera_shard"
+    },
+    "L": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "T": {
+      "item": "cobblemon:shiny_stone"
+    }
+  },
+
+  "pattern": [
+    "ILI",
+    "LTL",
+    "ILI"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "mega_showdown:cornerstone_mask"
+  }
+}

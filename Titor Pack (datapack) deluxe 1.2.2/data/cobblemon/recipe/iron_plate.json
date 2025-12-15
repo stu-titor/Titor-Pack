@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "P#P",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:steel_gem"
+        },
+        "P": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:ironplate",
+        "count": 1
+    }
+}

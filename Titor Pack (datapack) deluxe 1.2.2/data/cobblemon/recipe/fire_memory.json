@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cobblemon:fire_gem"
+        },
+        {
+            "item": "tmcraft:copper_blank_disc"
+        }
+    ],
+    "result": {
+        "id": "mega_showdown:firememory",
+        "count": 1
+    }
+}

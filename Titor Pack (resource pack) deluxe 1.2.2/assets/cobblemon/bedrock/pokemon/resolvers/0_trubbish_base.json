@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:trubbish",
+  "order": 0,
+  "variations": [
+    {
+      "poser": "cobblemon:trubbish",
+      "model": "cobblemon:trubbish.geo",
+      "texture": "cobblemon:textures/pokemon/0568_trubbish/trubbish.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0568_trubbish/trubbish_shiny.png"
+    }
+  ]
+}

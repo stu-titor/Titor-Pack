@@ -1,0 +1,41 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "hooh-1",
+           "pokemon": "hooh",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "ultra-rare",
+           "level": "70",
+           "weight": 1,
+           "condition": {
+               "biomes": [
+                   "#cobblemon:is_badlands"
+               ]
+           }
+       },
+       {
+        "id": "hooh-2",
+        "pokemon": "hooh",
+        "presets": [
+            "natural"
+        ],
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "70",
+        "weight": 0.8,
+        "condition": {
+            "biomes": [
+                "minecraft:basalt_deltas"
+            ]
+        }
+    }
+   ]
+}

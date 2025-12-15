@@ -1,0 +1,13 @@
+{
+ "target": "cobblemon:cinderace",
+ "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "mega_showdown:fire_tera_shard",
+        "quantityRange": "50-60"
+      }
+    ]
+  }
+
+}

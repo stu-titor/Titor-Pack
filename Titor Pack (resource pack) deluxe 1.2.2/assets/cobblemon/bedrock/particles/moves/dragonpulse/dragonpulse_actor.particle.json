@@ -1,0 +1,65 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "cobblemon:dragonpulse_actor",
+			"basic_render_parameters": {
+				"material": "particles_blend",
+				"texture": "textures/particles/dragonpulse"
+			}
+		},
+		"events": {
+			"event_sound": {
+				"sound_effect": {
+					"event_name": "move.dragonpulse.actor"
+				}
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 50,
+				"max_particles": 100
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 1.25
+			},
+			"minecraft:emitter_lifetime_events": {
+				"creation_event": "event_sound"
+			},
+			"minecraft:emitter_shape_point": {
+				"offset": ["math.random(-0.03,0.03)", "math.random(-0.03,0.03)", -0.3],
+				"direction": ["math.random(-3,3)", "math.random(-3,3)", -100]
+			},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 0.75
+			},
+			"minecraft:particle_initial_speed": 2.4,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.2, 0.2],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 7,
+					"texture_height": 7,
+					"uv": [0, 0],
+					"uv_size": [7, 7]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": {
+					"interpolant": "v.particle_age / v.particle_lifetime",
+					"gradient": {
+						"0.06": "#E09148FF",
+						"0.17": "#E0B68BD9",
+						"0.28": "#E3EB2EF1",
+						"0.4": "#E09148FF",
+						"0.51": "#E8B68BD9",
+						"0.62": "#E6EB2EF1",
+						"0.73": "#A09148FF",
+						"0.95": "#009148FF"
+					}
+				}
+			}
+		}
+	}
+}

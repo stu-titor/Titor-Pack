@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rotom-1",
+            "pokemon": "rotom",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-33",
+            "weight": 5,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "isThundering": true
+                }
+            },
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

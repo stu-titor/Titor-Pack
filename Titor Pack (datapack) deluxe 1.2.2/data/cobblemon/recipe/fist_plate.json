@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "P#P",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:fighting_gem"
+        },
+        "P": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "id": "mega_showdown:fistplate",
+        "count": 1
+    }
+}

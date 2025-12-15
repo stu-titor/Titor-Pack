@@ -1,0 +1,25 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wochein-1",
+            "pokemon": "wochein",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65-75",
+            "weight": 1.7,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        }
+    ]
+}

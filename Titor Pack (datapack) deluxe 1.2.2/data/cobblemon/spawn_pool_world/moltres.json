@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "moltres-1",
+            "pokemon": "moltres",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60",
+            "weight": 1.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_badlands"
+                ]
+            }
+        },
+        {
+            "id": "moltres-galarian-1",
+            "pokemon": "moltres galarian",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "60",
+            "weight": 2.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:warped_forest"
+                ]
+            }
+        }
+    ]
+}

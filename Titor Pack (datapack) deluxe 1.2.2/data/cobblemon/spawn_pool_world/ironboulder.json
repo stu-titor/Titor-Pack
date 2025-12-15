@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironboulder-1",
+            "pokemon": "ironboulder",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "70",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "minecraft:dripstone_caves",
+                    "minecraft:warped_forest"
+                ]
+            }
+        }
+    ]
+ }

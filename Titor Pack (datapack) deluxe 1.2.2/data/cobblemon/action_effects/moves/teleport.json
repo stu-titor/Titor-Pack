@@ -1,0 +1,30 @@
+{
+    "timeline": [
+        {
+            "type": "add_holds",
+            "holds": ["effects"]
+        },
+        {
+            "type": "animation",
+            "animation": ["teleport", "status"],
+            "delay": 0.3
+        },
+        {
+            "type": "entity_molang",
+            "expressions": ["q.play_animation(q.bedrock_stateful('teleport', 'actor'))"],
+            "delay": 0.03
+        },
+        {
+            "type": "pause",
+            "pause": 1.8
+        },
+        {
+            "type": "remove_holds",
+            "holds": ["effects"]
+        },
+        {
+            "type": "pause",
+            "pause": 0.5
+        }
+    ]
+}

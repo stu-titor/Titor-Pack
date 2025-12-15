@@ -1,0 +1,43 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tinglu-1",
+            "pokemon": "tinglu",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65-75",
+            "weight": 1.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark"
+                ]
+            }
+        },
+        {
+	    "id": "tinglu-2",
+            "pokemon": "tinglu",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "65-75",
+            "weight": 1.7,
+            "condition": {
+                "biomes": [
+                    "minecraft:warped_forest"
+                ]
+            }
+        }
+    ]
+}

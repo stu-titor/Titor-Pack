@@ -1,0 +1,13 @@
+{
+ "target": "cobblemon:zapdos",
+ "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "mega_showdown:electric_tera_shard",
+        "quantityRange": "15-20"
+      }
+    ]
+  }
+
+}

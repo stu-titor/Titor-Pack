@@ -1,0 +1,23 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "kyogre-1",
+           "pokemon": "kyogre",
+           "type": "pokemon",
+           "context": "fishing",
+           "bucket": "ultra-rare",
+           "level": "70",
+           "weight": 2.0,
+           "condition": {
+               "isRaining": true,
+               "biomes": [
+                   "#cobblemon:is_ocean"
+               ],
+               "minLureLevel": 3
+           }
+       }
+   ]
+}

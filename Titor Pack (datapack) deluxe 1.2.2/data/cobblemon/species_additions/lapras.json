@@ -1,0 +1,17 @@
+{
+ "target": "cobblemon:lapras",
+ "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:water_tera_shard",
+        "quantityRange": "10-15"
+      },
+      {
+        "item": "mega_showdown:ice_tera_shard",
+        "quantityRange": "10-15"
+      }
+    ]
+  }
+
+}

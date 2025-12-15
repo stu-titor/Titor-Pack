@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:gabite",
+  "drops": {
+     "amount": 2,
+     "entries": [
+       {
+         "item": "mega_showdown:ground_tera_shard",
+         "quantityRange": "5-8"
+       },
+       {
+        "item": "mega_showdown:dragon_tera_shard",
+        "quantityRange": "5-8"
+      }
+     ]
+   }
+ 
+ }

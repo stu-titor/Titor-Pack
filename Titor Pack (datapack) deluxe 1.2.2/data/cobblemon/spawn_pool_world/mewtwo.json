@@ -1,0 +1,21 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mewtwo-1",
+      "pokemon": "mewtwo",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [ 
+          "#minecraft:is_end"
+	  ]  
+      }
+    }
+  ]
+}

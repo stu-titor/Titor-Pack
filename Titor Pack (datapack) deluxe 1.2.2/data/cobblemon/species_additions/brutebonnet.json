@@ -1,0 +1,17 @@
+{
+ "target": "cobblemon:brutebonnet",
+ "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "mega_showdown:grass_tera_shard",
+        "quantityRange": "5-10"
+      },
+      {
+        "item": "mega_showdown:dark_tera_shard",
+        "quantityRange": "5-10"
+      }
+    ]
+  }
+
+}
