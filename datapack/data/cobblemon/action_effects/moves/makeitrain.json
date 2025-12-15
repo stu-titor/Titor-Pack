@@ -1,0 +1,37 @@
+{
+  "timeline": [
+    {
+      "type": "add_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "animation",
+      "animation": ["makeitrain", "payday", "special"],
+      "delay": 1.05
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:makeitrain_target",
+      "locator": "target"
+    },
+    {
+      "type": "pause",
+      "pause": 0.6
+    },
+    {
+      "type": "entity_particles",
+      "entityCondition": "q.entity.is_user == false && q.missed(q.entity.uuid) == false",
+      "effect": "cobblemon:makeitrain_impact",
+      "locator": "target"
+    },
+    {
+      "type": "remove_holds",
+      "holds": ["effects"]
+    },
+    {
+      "type": "pause",
+      "pause": 1.8
+    }
+  ]
+}
